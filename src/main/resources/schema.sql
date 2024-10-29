@@ -1,0 +1,6 @@
+CREATE TABLE transaction (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    customer_id VARCHAR(255) NOT NULL,
+    amount DOUBLE NOT NULL,
+    date DATE NOT NULL
+);
